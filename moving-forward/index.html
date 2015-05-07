@@ -3,7 +3,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Hello, World!</title>
+    <title>Moving forward</title>
     <meta name="description" content="">
 
     <meta name="HandheldFriendly" content="True">
@@ -18,16 +18,16 @@
     
     <meta property="og:site_name" content="Leanlabs.io Blog">
     <meta property="og:type" content="article">
-    <meta property="og:title" content="Hello, World!">
-    <meta property="og:description" content="A few days ago we released our first open source project - Leanlabs Kanban board for GitLab issues! This release includes: Full featured GitLab issues integration. Leanlabs Kanban cards are GitLab issues, you can select milestones, assign card, manage labels...">
-    <meta property="og:url" content="http://blog.leanlabs.io/hello-world/">
-    <meta property="article:published_time" content="2015-03-04T17:30:40.663Z">
-    <meta property="article:modified_time" content="2015-03-04T17:41:43.124Z">
+    <meta property="og:title" content="Moving forward">
+    <meta property="og:description" content="Two months ago was our initial release. We got a lot of feedback and have implemented several new features.  Today we are proud to announce about 1.0.7 release of LeanLabs Kanban with several improvements: Simplified URI scheme. You...">
+    <meta property="og:url" content="http://blog.leanlabs.io/moving-forward/">
+    <meta property="article:published_time" content="2015-05-07T15:01:39.520Z">
+    <meta property="article:modified_time" content="2015-05-07T15:07:02.296Z">
     
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Hello, World!">
-    <meta name="twitter:description" content="A few days ago we released our first open source project - Leanlabs Kanban board for GitLab issues! This release includes: Full featured GitLab issues integration. Leanlabs Kanban cards are GitLab issues, you can select milestones, assign card, manage labels...">
-    <meta name="twitter:url" content="http://blog.leanlabs.io/hello-world/">
+    <meta name="twitter:title" content="Moving forward">
+    <meta name="twitter:description" content="Two months ago was our initial release. We got a lot of feedback and have implemented several new features.  Today we are proud to announce about 1.0.7 release of LeanLabs Kanban with several improvements: Simplified URI scheme. You...">
+    <meta name="twitter:url" content="http://blog.leanlabs.io/moving-forward/">
     
     <script type="application/ld+json">
 {
@@ -41,11 +41,11 @@
         "sameAs": null,
         "description": null
     },
-    "headline": "Hello, World!",
-    "url": "http://blog.leanlabs.io/hello-world/",
-    "datePublished": "2015-03-04T17:30:40.663Z",
-    "dateModified": "2015-03-04T17:41:43.124Z",
-    "description": "A few days ago we released our first open source project - Leanlabs Kanban board for GitLab issues! This release includes: Full featured GitLab issues integration. Leanlabs Kanban cards are GitLab issues, you can select milestones, assign card, manage labels..."
+    "headline": "Moving forward",
+    "url": "http://blog.leanlabs.io/moving-forward/",
+    "datePublished": "2015-05-07T15:01:39.520Z",
+    "dateModified": "2015-05-07T15:07:02.296Z",
+    "description": "Two months ago was our initial release. We got a lot of feedback and have implemented several new features.  Today we are proud to announce about 1.0.7 release of LeanLabs Kanban with several improvements: Simplified URI scheme. You..."
 }
     </script>
 
@@ -107,33 +107,36 @@ text-align: center;
     <article class="post">
 
         <header class="post-header">
-            <h1 class="post-title">Hello, World!</h1>
+            <h1 class="post-title">Moving forward</h1>
             <section class="post-meta">
-                <time class="post-date" datetime="2015-03-04">04 March 2015</time> 
+                <time class="post-date" datetime="2015-05-07">07 May 2015</time> 
             </section>
         </header>
 
         <section class="post-content">
-            <p>A few days ago we released our first open source project - Leanlabs Kanban board for GitLab issues!</p>
+            <p>Two months ago was our initial release. We got a lot of feedback and have implemented several new features. </p>
 
-<p>This release includes:</p>
+<p>Today we are proud to announce about 1.0.7 release of LeanLabs Kanban with several improvements:</p>
 
-<ul>
-<li><p>Full featured GitLab issues integration. Leanlabs Kanban cards are GitLab issues, you can select milestones, assign card, manage labels</p></li>
-<li><p>Checklist in cards</p></li>
-<li><p>GitLab Flavoured markdown support (partially)</p></li>
-<li><p>Real-time task boards synchronised through WebSocket</p></li>
-<li><p>Authorization with GitLab OAuth (by private token for older GitLab versions)</p></li>
-<li><p>ACL (based on your GitLab permissions)</p></li>
-<li><p>Drag and drop cards</p></li>
-<li><p>Project based workflow customisation (including sensitive defaults)</p></li>
-<li><p>Mobile friendly</p></li>
-<li><p>Easy deployment on your servers</p></li>
-</ul>
+<p><strong>Simplified URI scheme.</strong> You can navigate to board by “namespace/reponame” in URI (e.g. demo.kanban.leanlabs.io/boards/leanlabsio/kanban)</p>
 
-<p>We have done a lot. But even more we plan to implement in the near future, so stay tuned!</p>
+<p><strong>Cards ID in URI are GitLab issues ID.</strong> Example <a href="https://demo.kanban.leanlabs.io/boards/leanlabsio/kanban/cards/18">demo.kanban.leanlabs.io/boards/leanlabsio/kanban/cards/18</a> and <a href="https://gitlab.com/leanlabsio/kanban/issues/18">gitlab.com/leanlabsio/kanban/issues/18</a>.</p>
 
-<p>Do you have any feedback, suggestion or want to report a bug? Report an issue on <a href="https://gitlab.com/leanlabsio/kanban/issues">projects gitlab</a> page or contact us via email <a href="mailto:support@leanlabs.io">support@leanlabs.io</a>.</p>
+<p><strong>Simplified Tab navigation in browser window.</strong> </p>
+
+<p><img src="../content/images/2015/05/Screen-Shot-2015-05-07-at-14-51-10.png" alt="Simplified URI scheme"></p>
+
+<p><strong>You can filter card by user name.</strong> We implemented simple filter by username for cards on board with “@” annotation. To show only cards assigned to user with name “user” you can type “@user” in filter field and press “Enter”. To show all cards that have assignee you can simply type “@”.</p>
+
+<p><img src="../content/images/2015/05/Screen-Shot-2015-05-07-at-14-41-14.png" alt="You can filter card by user name"></p>
+
+<p><strong>Simplified validation rules when creating a card reflecting GitLab rules.</strong> Now you can leave “Description” blank when creating card.</p>
+
+<p><strong>Fast cards close.</strong> We added "Close" button for cards in last column. You don't need open card for to close it.</p>
+
+<p><img src="../content/images/2015/05/Screen-Shot-2015-05-07-at-14-46-16.png" alt="Fast cards close"></p>
+
+<p>We are pleased that our project moves forward, we hope that these updates will be useful to you.</p>
         </section>
 
         <footer class="post-footer">
@@ -153,13 +156,13 @@ text-align: center;
 
             <section class="share">
                 <h4>Share this post</h4>
-                <a class="icon-twitter" href="https://twitter.com/share?text=Hello%2C%20World!&amp;url=http://blog.leanlabs.io/hello-world/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                <a class="icon-twitter" href="https://twitter.com/share?text=Moving%20forward&amp;url=http://blog.leanlabs.io/moving-forward/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
                     <span class="hidden">Twitter</span>
                 </a>
-                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://blog.leanlabs.io/hello-world/" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://blog.leanlabs.io/moving-forward/" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
                     <span class="hidden">Facebook</span>
                 </a>
-                <a class="icon-google-plus" href="https://plus.google.com/share?url=http://blog.leanlabs.io/hello-world/" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                <a class="icon-google-plus" href="https://plus.google.com/share?url=http://blog.leanlabs.io/moving-forward/" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
                     <span class="hidden">Google+</span>
                 </a>
             </section>
@@ -170,10 +173,10 @@ text-align: center;
 </main>
 
 <aside class="read-next">
-    <a class="read-next-story no-cover" href="../moving-forward/">
+    <a class="read-next-story prev no-cover" href="../hello-world/">
         <section class="post">
-            <h2>Moving forward</h2>
-            <p>Two months ago was our initial release. We got a lot of feedback and have implemented several new features.…</p>
+            <h2>Hello, World!</h2>
+            <p>A few days ago we released our first open source project - Leanlabs Kanban board for GitLab issues! This…</p>
         </section>
     </a>
 </aside>

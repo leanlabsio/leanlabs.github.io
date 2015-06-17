@@ -1,4 +1,50 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Leanlabs.io Blog</title><description>Leanlabs.io Blog</description><link>http://blog.leanlabs.io/</link><generator>Ghost 0.6</generator><lastBuildDate>Mon, 11 May 2015 13:58:39 GMT</lastBuildDate><atom:link href="http://blog.leanlabs.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Moving forward</title><description>&lt;p&gt;Two months ago was our initial release. We got a lot of feedback and have implemented several new features. &lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Leanlabs.io Blog</title><description>Leanlabs.io Blog</description><link>http://blog.leanlabs.io/</link><generator>Ghost 0.6</generator><lastBuildDate>Wed, 17 Jun 2015 16:47:31 GMT</lastBuildDate><atom:link href="http://blog.leanlabs.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>New release - 1.1.2</title><description>&lt;p&gt;There have been awhile since our last post. Today we want to tell about improvements we made for this time.&lt;/p&gt;
+
+&lt;h4 id="wereleasedseveralnewfeatures"&gt;We released several new features:&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;Filter by milestone.&lt;/strong&gt; Now you can filter cards by milestones (with “^milestone name” notation).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="http://blog.leanlabs.io/content/images/2015/06/Screen-Shot-2015-06-17-at-19-12-34.png" alt="Filter by milestone"&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Filter by label.&lt;/strong&gt; Now you can filter cards by labels (with&lt;/p&gt;</description><link>http://blog.leanlabs.io/new-release-1-1-2/</link><guid isPermaLink="false">b6e2a0b5-d82f-4b51-8797-2c1d1c17f410</guid><dc:creator>Leanlabs.io</dc:creator><pubDate>Wed, 17 Jun 2015 16:41:06 GMT</pubDate><content:encoded>&lt;p&gt;There have been awhile since our last post. Today we want to tell about improvements we made for this time.&lt;/p&gt;
+
+&lt;h4 id="wereleasedseveralnewfeatures"&gt;We released several new features:&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;Filter by milestone.&lt;/strong&gt; Now you can filter cards by milestones (with “^milestone name” notation).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="http://blog.leanlabs.io/content/images/2015/06/Screen-Shot-2015-06-17-at-19-12-34.png" alt="Filter by milestone"&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Filter by label.&lt;/strong&gt; Now you can filter cards by labels (with “~label name” notation).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="http://blog.leanlabs.io/content/images/2015/06/Screen-Shot-2015-06-17-at-19-10-51.png" alt="Filter by label"&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Autocomplete in filter.&lt;/strong&gt; Now filtering is much easier with simple autocomplete.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="http://blog.leanlabs.io/content/images/2015/06/Screen-Shot-2015-06-17-at-19-19-30.png" alt="Autocomplete in filter"&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Hide archived projects.&lt;/strong&gt; Only active projects are visible on boards list.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Edit issue.&lt;/strong&gt; Now you can edit issue title and description from the board.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="http://blog.leanlabs.io/content/images/2015/06/Screen-Shot-2015-06-17-at-19-12-55.png" alt="Edit issue"&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;More cards on board.&lt;/strong&gt; We increased number of cards on board from 50 to 100.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;GitLab links.&lt;/strong&gt; Now you can navigate to issue in GitLab from issue on board. We added links to GitLab issue from issue view on board.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="http://blog.leanlabs.io/content/images/2015/06/Screen-Shot-2015-06-17-at-19-13-44.png" alt="GitLab links"&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Multiline comments.&lt;/strong&gt; We changed comment input from “text” to “textarea”, now you can write multiline comments with ease.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="http://blog.leanlabs.io/content/images/2015/06/Screen-Shot-2015-06-17-at-19-14-18.png" alt="Multiline comments"&gt;&lt;/p&gt;
+
+&lt;h4 id="andalsoseveralbugfixes"&gt;And also several bugfixes ;)&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;We showed a noisy alert when websocket connection failed requiring you to reload the page. Now page reload automatically on websocket connection fail.&lt;/li&gt;
+&lt;li&gt;We fixed docker images versions, “latest” tag was used in several images before, leading to unpredictable updates at some conditions.&lt;/li&gt;
+&lt;li&gt;We reduced websocket server image size about 4 times, now updates and deployments should be notable faster.&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title>Moving forward</title><description>&lt;p&gt;Two months ago was our initial release. We got a lot of feedback and have implemented several new features. &lt;/p&gt;
 
 &lt;p&gt;Today we are proud to announce about 1.0.7 release of LeanLabs Kanban with several improvements:&lt;/p&gt;
 

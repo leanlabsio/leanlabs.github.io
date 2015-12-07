@@ -1,3 +1,4 @@
+url: "http://blog.leanlabs.io"
 gems:
   - jekyll-redirect-from
   - jekyll-feed

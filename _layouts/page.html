@@ -22,14 +22,14 @@
     <meta property="og:type" content="article">
     <meta property="og:title" content="{{ page.title }}">
     <meta property="og:description" content="{{ page.excerpt | remove: '<p>' | remove: '</p>' }}">
-    <meta property="og:url" content="{{ site.baseurl }}{{ page.url }}">
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
     <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
     <meta property="article:modified_time" content="{{ page.date | date_to_xmlschema }}">
     
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="{{ page.title }}">
     <meta name="twitter:description" content="{{ page.excerpt | remove: '<p>' | remove: '</p>'}}">
-    <meta name="twitter:url" content="{{ site.baseurl }}{{ page.url }}">
+    <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
     
     <script type="application/ld+json">
 {
@@ -44,7 +44,7 @@
         "description": null
     },
     "headline": "New release - 1.1.2",
-    "url": "{{ page.baseurl }}{{ page.url }}",
+    "url": "{{ page.url }}{{ page.url }}",
     "datePublished": "{{ page.date | date_to_xmlschema }}",
     "dateModified": "{{ page.date | date_to_xmlschema }}",
     "description": "{{ page.excerpt | remove: '<p>' | remove: '</p>' }}"
